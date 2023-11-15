@@ -1,0 +1,65 @@
+.rodapé{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background--rodape);
+    padding: 6.4rem;
+}
+
+.rodapé__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-fonte-secundaria);
+}
+
+.rodapé__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-fonte-principal);
+}
+
+.rodapé__conjunto{
+    display: flex;
+    gap: 1.6rem;
+    
+}
+
+.rodapé__email{
+    display: flex;
+    padding: 0.8rem 13rem 0.8rem 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--cor-borda);
+    width: 100%;
+ 
+    
+
+}
+
+.rodapé__email::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left; 
+
+}
+
+.rodapé__botão{
+    border: 1px solid var(--cor-secundaria);
+    background: var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rodapé__botão:hover{
+    background: var(--cor-fonte-principal);
+    border: solid 1px var(--cor-fonte-principal);
+    transition: 0.3s;
+}
+
+.rodapé__texto-direitos{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-direitos);
+}
